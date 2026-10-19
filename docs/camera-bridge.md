@@ -19,6 +19,9 @@ show — no port forwarding on the shop's router, no manual URLs to paste in.
 | macOS (Apple Silicon) | **[ZendoriaCameraBridge-macos-arm64](https://pub-339115a4b0fb49f68be8268e590f7328.r2.dev/releases/ZendoriaCameraBridge-macos-arm64)** |
 | Linux (64-bit) | **[ZendoriaCameraBridge-linux-x64](https://pub-339115a4b0fb49f68be8268e590f7328.r2.dev/releases/ZendoriaCameraBridge-linux-x64)** |
 
+Source and every build are also published on GitHub:
+[graktor/graktor-camera-bridge releases](https://github.com/graktor/graktor-camera-bridge/releases/tag/latest).
+
 Each is a single self-contained executable — no separate .NET install needed. On macOS/Linux,
 make it executable first: `chmod +x ZendoriaCameraBridge-*`. On macOS, Gatekeeper will say it's
 from an unidentified developer the first time — right-click and choose "Open" to bypass that.

@@ -44,3 +44,12 @@ Built via a GitHub Actions macOS runner (electron-builder can't cross-build macO
 Windows or Linux, so this one runs on real Apple hardware in CI). Currently unsigned, so macOS
 Gatekeeper will say it's from an unidentified developer — right-click the app and choose "Open"
 to bypass that the first time.
+
+## Zendoria Camera Bridge
+
+A separate install, run on one always-on PC at a branch rather than any staff member's own
+device — see the dedicated [Camera Bridge](camera-bridge) page for downloads and setup. Its
+source and every build are also on GitHub:
+**[graktor/graktor-camera-bridge](https://github.com/graktor/graktor-camera-bridge)**
+(see its [latest release](https://github.com/graktor/graktor-camera-bridge/releases/tag/latest)
+for direct downloads).
