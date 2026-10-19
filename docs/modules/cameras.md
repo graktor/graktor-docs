@@ -17,17 +17,17 @@ today.
 1. Add a camera under a branch (name, IP address, username/password, and its RTSP channel — most
    single-lens cameras are channel 1, but not always; check the camera's own settings if the feed
    doesn't match what you expect).
-2. Install the **Zendoria Camera Bridge** — a small Windows program that runs on any PC on the same
-   shop network as the cameras — and pair it to the branch using a one-time code generated from
-   the Cameras page.
+2. Install the **[Zendoria Camera Bridge](../camera-bridge)** — a small program (Windows, macOS, or
+   Linux) that runs on any computer on the same shop network as the cameras — and pair it to the
+   branch using a one-time code generated from the Cameras page.
 3. The Bridge pulls each camera's RTSP feed, converts it locally, and publishes it through a
    secure public address (no port-forwarding, no static IP needed) — the admin app then just
    plays that address back.
 
 ## What it needs
 
-- A Windows PC on the same local network as the cameras, left running (it doesn't need to be a
-  dedicated machine — any Windows PC that's normally on will do).
+- A computer (Windows, macOS, or Linux) on the same local network as the cameras, left running —
+  it doesn't need to be a dedicated machine, any computer that's normally on will do.
 - An internet connection on that PC.
 - The camera's IP address, login, and RTSP channel.
 

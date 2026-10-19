@@ -32,6 +32,7 @@ const sidebars = {
     },
     'billing-and-plans',
     'apps',
+    'camera-bridge',
     'faq',
   ],
 };
