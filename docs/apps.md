@@ -27,8 +27,20 @@ A native Android app, same live-URL approach as Windows. This is a signed releas
 directly from the file rather than the Play Store — your phone will ask you to allow installs from
 whatever app you used to open the file ("install unknown apps"), a one-time permission per app.
 
+## Linux
+
+**[Download for Linux](https://pub-339115a4b0fb49f68be8268e590f7328.r2.dev/releases/Graktor-1.0.0.AppImage)**
+(.AppImage, x86_64)
+
+An AppImage runs on most distributions with no install step: make it executable
+(`chmod +x Graktor-1.0.0.AppImage`) and double-click or run it directly.
+
 ## macOS
 
-Not yet available for download — it has to be built on actual Mac hardware (there's no way to
-cross-build a macOS app from Windows or Linux), via a CI pipeline rather than locally. Check back
-or ask for status.
+**[Download for macOS](https://pub-339115a4b0fb49f68be8268e590f7328.r2.dev/releases/Graktor-1.0.0-universal.dmg)**
+(.dmg, universal — works on both Intel and Apple Silicon Macs)
+
+Built via a GitHub Actions macOS runner (electron-builder can't cross-build macOS apps from
+Windows or Linux, so this one runs on real Apple hardware in CI). Currently unsigned, so macOS
+Gatekeeper will say it's from an unidentified developer — right-click the app and choose "Open"
+to bypass that the first time.
