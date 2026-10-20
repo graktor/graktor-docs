@@ -1,10 +1,7 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
 
-// NOTE: organizationName/projectName/editUrl below point at a placeholder GitHub repo
-// (zendoriaventures/graktor-docs) until the real repo exists -- update these three once
-// it's created, otherwise "Edit this page" links will 404.
-const GITHUB_ORG = 'zendoriaventures';
+const GITHUB_ORG = 'graktor';
 const GITHUB_REPO = 'graktor-docs';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -17,8 +14,6 @@ const config = {
     v4: true,
   },
 
-  // Placeholder until this site has a real deployment target (GitHub Pages or a
-  // docs.zendoriaventures.com subdomain) -- update before deploying for real.
   url: `https://${GITHUB_ORG}.github.io`,
   baseUrl: `/${GITHUB_REPO}/`,
 
@@ -77,7 +72,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://app.zendoriaventures.com',
+            href: 'https://app.graktor.com',
             label: 'Open Graktor',
             position: 'right',
           },
@@ -106,7 +101,7 @@ const config = {
           {
             title: 'Graktor',
             items: [
-              {label: 'Open the app', href: 'https://app.zendoriaventures.com'},
+              {label: 'Open the app', href: 'https://app.graktor.com'},
               {label: 'Edit these docs', href: `https://github.com/${GITHUB_ORG}/${GITHUB_REPO}`},
             ],
           },
