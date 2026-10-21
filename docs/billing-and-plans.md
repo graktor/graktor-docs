@@ -11,23 +11,37 @@ Prices below are placeholders from the current build and are still being confirm
 launch — check the in-app Billing page or ask directly before quoting a figure to a customer.
 :::
 
-| Plan | Branches | Staff | Products | Included modules |
-|---|---|---|---|---|
-| **Free trial** | 3 | 10 | 5,000 | Everything, for 14 days. |
-| **Starter** | 1 | 3 | 500 | Pickup orders, referrals. |
-| **Growth** | 3 | 10 | 5,000 | Pickup orders, referrals, online store, cash services. |
-| **Pro** | Unlimited | Unlimited | Unlimited | Pickup orders, referrals, online store, cash services, cameras. |
+Plans differentiate on **branches, staff and included industry modules only** — every feature in
+the app (weekly inventory, reconciliation, gift cards, map view, discounts, custom staff roles,
+and everything else) is a free toggle any business can switch on or off from
+**Billing → Add-ons**, regardless of plan. Pricing is in your own currency — NGN, USD, GBP, EUR,
+GHS, KES or ZAR — set from your country at signup.
 
-A business's **industry modules** (the [pharmacy pack](./modules/pharmacy.md) or
-[retail pack](./modules/retail-pack.md)) come from its template, not its plan — a pharmacy keeps
-its pharmacy tools regardless of which plan it's on.
+| Plan | Branches | Staff | Products | Industry modules included |
+|---|---|---|---|---|
+| **Free trial** | 5 | 5 | Unlimited | Everything, for 14 days. |
+| **Starter** | 1 | 2 | Unlimited | None (add one for a monthly fee). |
+| **Growth** | 5 | 5 | Unlimited | 1 |
+| **Pro** | 15 | 15 | Unlimited | 3 |
+| **Enterprise** | Unlimited | Unlimited | Unlimited | Unlimited — priced by agreement. |
+
+An **industry module** is one of [Pharmacy](./modules/pharmacy.md), [Retail](./modules/retail-pack.md),
+[School](./modules/school.md), or Live Cameras. A business beyond its plan's included count pays a
+small monthly fee per extra module (shown on the in-app Billing page); a business whose template
+already is a pharmacy/retail/school keeps those tools regardless of plan, since they define what
+*kind* of business it is, not an add-on.
 
 ## Add-ons
 
-Independent of plan tier — switched on/off free in v1 (no separate checkout yet):
+Every one of these is a free, on/off toggle from **Billing → Add-ons** for any business, on any
+plan — not a separate checkout:
 
-| Add-on | What it does | Scope |
-|---|---|---|
-| **Live cameras** | View branch camera feeds from the admin app. | Per-branch |
-| **SMS notifications** | Text customers about pickup-ready orders and receipts. | Per-branch |
-| **Online payments** | Accept card/transfer payments through the online store. | Whole business |
+- Industry modules: Pharmacy, Retail, School, Live Cameras (counted against the plan's module
+  allowance above), plus SMS notifications and online payments (not counted).
+- Everything else: pickup orders, online store, cash services, referral rewards, discounts, weekly
+  inventory, reconciliation, cash & transfer, change/credit inventory, gift cards, bulk messaging,
+  map view, capital investments, advanced/export reports, salary, tax settings, and custom staff
+  roles.
+
+A new signup's template just picks sensible defaults for its industry — anything can be switched
+on or off, by anyone with Admin access, at any time.

@@ -8,14 +8,19 @@ slug: /
 # Qu'est-ce que Graktor ?
 
 Graktor (développé par Zendoria Ventures) est une plateforme de point de vente, de gestion des
-stocks, de relation client (CRM) et de finance pour les commerces de détail au Nigeria — une
-boutique ou plusieurs succursales, avec une seule connexion.
+stocks, de relation client (CRM) et de finance pour les commerces de détail du monde entier — une
+boutique ou plusieurs succursales, avec une seule connexion. Lancée au Nigeria, la plateforme prend
+aujourd'hui en charge plusieurs pays et devises (NGN, USD, GBP, EUR, GHS, KES, ZAR).
 
 Elle fonctionne comme :
 
 - Une **application web d'administration**, utilisable depuis n'importe quel navigateur.
-- Une **application installable sur Windows**.
-- Une **application Android**.
+- Une **application installable sur Windows, macOS et Linux**.
+- Des **applications Android et iOS**.
+- **Graktor Offline** : une installation autonome, sans dépendance à internet au quotidien,
+  activée par une clé de licence plutôt qu'une connexion, avec sauvegarde cloud optionnelle.
+- **Graktor Complete Suite** : un seul installeur qui permet de choisir, à l'installation, entre un
+  compte cloud et une clé de licence.
 - Une **boutique en ligne publique** pour chaque commerce, et une **place de marché** partagée qui
   répertorie les produits de plusieurs commerces à la fois.
 

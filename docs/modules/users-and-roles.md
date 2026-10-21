@@ -19,3 +19,11 @@ Three roles, in increasing order of access:
 Clock-in/clock-out shift tracking for Cashiers and Managers. Everyone can see their own hours;
 Admin and Manager can additionally see any staff member's hours — no one else can see anyone
 else's.
+
+## Custom roles
+
+A free add-on toggle (not plan-gated). Build a named role (e.g. "Regional Manager", "Teacher")
+that narrows a Cashier- or Manager-based account down to exactly the areas it needs — Products,
+Reconciliation, [School](./school.md), and so on — instead of the full built-in role. A business
+that turns [School](./school.md) on gets a ready-made **Teacher** role automatically, scoped to
+just Students/Classes/Attendance/Report Cards/Exams/AI Studio.

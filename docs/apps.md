@@ -6,8 +6,15 @@ sidebar_position: 4
 
 # Apps
 
-Graktor runs in any browser first — installing an app is optional, and every install talks to the
-same live server, so nothing is ever out of sync between devices.
+Graktor runs in any browser first — installing an app is optional. Three different kinds of
+install exist, for three different needs:
+
+- **Cloud apps** (below) — every install talks to the same live server, so nothing is ever out of
+  sync between devices. Needs an internet connection.
+- **[Graktor Offline](#graktor-offline)** — a standalone install with its own local database, no
+  cloud account and no ongoing internet connection needed. Licensed by key.
+- **[Graktor Complete Suite](#graktor-complete-suite)** — one installer, choose either of the
+  above at setup (and switch later).
 
 ## Windows
 
@@ -26,6 +33,15 @@ warning on first run — click "More info" → "Run anyway".
 A native Android app, same live-URL approach as Windows. This is a signed release build, installed
 directly from the file rather than the Play Store — your phone will ask you to allow installs from
 whatever app you used to open the file ("install unknown apps"), a one-time permission per app.
+Built from [graktor/graktor-mobile](https://github.com/graktor/graktor-mobile).
+
+## iOS
+
+An iOS build exists ([graktor/graktor-mobile](https://github.com/graktor/graktor-mobile)) but
+isn't distributable yet — Apple requires a paid Developer Program account and signing certificates
+to install on a real iPhone, which this project doesn't have set up. Camera viewing (not the
+Camera Bridge relay itself, which can't run on iOS by design) works fine from the web app in
+Safari in the meantime.
 
 ## Linux
 
@@ -44,6 +60,33 @@ Built via a GitHub Actions macOS runner (electron-builder can't cross-build macO
 Windows or Linux, so this one runs on real Apple hardware in CI). Currently unsigned, so macOS
 Gatekeeper will say it's from an unidentified developer — right-click the app and choose "Open"
 to bypass that the first time.
+
+## Graktor Offline
+
+A standalone install that runs entirely on the machine it's on — its own local database, no cloud
+account and no ongoing internet needed for day-to-day use. Activated once with a 14-digit license
+key, an existing paid Graktor account, or by buying a key on the spot. A licensed install can
+optionally back its database up to the cloud (at most every 6 hours, plus up to 2 emergency
+backups a day), restorable onto a replacement machine with the same key.
+
+Source and every build: **[graktor/graktor-offline](https://github.com/graktor/graktor-offline)**
+— see its [latest release](https://github.com/graktor/graktor-offline/releases/tag/latest) for
+Windows/macOS/Linux downloads.
+
+In scope: core POS, inventory, customers, reports, staff accounts, a single branch. Cameras, the
+online store, SMS/email notifications, and multi-branch are cloud-only and aren't part of this
+build.
+
+## Graktor Complete Suite
+
+For a business that isn't sure yet whether it wants a cloud account or a license-key install — or
+wants the option to switch later. One installer; the first launch asks which mode to run in
+(**Ctrl+Shift+M** / **Cmd+Shift+M** switches any time afterward). Under the hood it's the exact
+same two products above, merged into one app.
+
+Source and every build: **[graktor/graktor-suite](https://github.com/graktor/graktor-suite)** —
+see its [latest release](https://github.com/graktor/graktor-suite/releases/tag/latest) for
+Windows/macOS/Linux downloads.
 
 ## Zendoria Camera Bridge
 

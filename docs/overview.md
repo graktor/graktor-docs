@@ -8,13 +8,19 @@ slug: /
 # What is Graktor?
 
 Graktor (built by Zendoria Ventures) is a point-of-sale, inventory, CRM and finance platform for
-Nigerian retail businesses — one shop or many branches, on one login.
+retail businesses worldwide — one shop or many branches, on one login. It launched in Nigeria and
+supports multiple countries and currencies today (NGN, USD, GBP, EUR, GHS, KES, ZAR), with local
+payment gateways and SMS routed automatically by where a business and its customers actually are.
 
 It runs as:
 
 - A **web admin app**, usable from any browser.
-- An **installable Windows app**.
-- An **Android app**.
+- An **installable desktop app** for Windows, macOS and Linux.
+- **Android and iOS apps**.
+- **Graktor Offline**: a standalone install with no internet dependency for day-to-day use,
+  licensed by key instead of a login, with optional cloud backup.
+- **Graktor Complete Suite**: one installer that lets you choose, at setup, between a cloud
+  account and a license key — for a business that wants the option to switch later.
 - A **public online store** for each business, and a shared **marketplace** that lists products
   across businesses.
 
@@ -37,4 +43,5 @@ from Settings.
 - **Want to know what a specific part of the app does?** See [Modules](./modules/overview.md).
 - **Choosing a plan?** See [Plans & pricing](./billing-and-plans.md).
 - **Setting up branch cameras?** See [Cameras & the Camera Bridge](./modules/cameras.md).
-- **Want Graktor on Windows, Android or Mac?** See [Apps](./apps.md).
+- **Want Graktor on Windows, macOS, Linux, Android or offline with no cloud account?** See
+  [Apps](./apps.md).
