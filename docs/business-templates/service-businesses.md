@@ -17,7 +17,7 @@ These templates are built on the same [service-business tools](../modules/overvi
 | **Phone & Laptop Repair** | Fixed right, every time. | A real Ticket per repair now tracks Received/Diagnosing/Repairing-style stages through to Ready, with an automatic text to the customer when it's Ready. |
 | **Generator & Inverter Repair** | Keeping the power on. | A real Ticket per job tracks it through to Ready. Per-hour labor-time logging isn't built yet -- log the flat job price as a service sale; ask before promising hourly time-tracking as a working feature. |
 | **AC & Refrigeration Servicing** | Cool, reliably. | No recurring-contract/calendar scheduling exists yet -- log each visit as its own service sale; ask before promising automatic quarterly reminders as a working feature. |
-| **Auto Mechanic Workshop** | Your vehicle, sorted. | Plate/make-model/mileage are stored as custom fields on the customer's own profile, and a real Ticket per job tracks it through to Ready. Mechanic commission can be assigned per sale line with a snapshotted percentage, reportable per staff member. Parts-sourcing-margin tracking (internal vs. externally bought parts) isn't built yet. |
+| **Auto Mechanic Workshop** | Your vehicle, sorted. | Plate/make-model/mileage are stored as custom fields on the customer's own profile, and a real Ticket per job tracks it through to Ready. Mechanic commission can be assigned per sale line with a snapshotted percentage, reportable per staff member. A one-off externally-bought part can be logged against the job (separate from stocked parts, which already cost through inventory/BOM), so the job's real margin shows up on the ticket. |
 | **Vulcanizer / Tire Repair** | In and out, fast. | Fast, standardized till pricing for patches and tire swaps. |
 | **Tailoring & Fashion Design** | Cut, sewn, and ready. | Measurements are stored as a custom field on the customer's own profile. A real Ticket per order now tracks a Measured/Cutting/Sewing/Finishing-style pipeline through to Ready. |
 | **Cobbler / Shoe Repair** | Shoes, restored. | A real Ticket per repair tracks it through to Ready (with an automatic text to the customer), and a condition photo can be attached to that ticket at intake. |
@@ -29,7 +29,7 @@ These templates are built on the same [service-business tools](../modules/overvi
 
 | Business | Tagline | Starts with |
 |---|---|---|
-| **Barbershop** | Sharp, every time. | Each sale line can be assigned to the barber who did it with a commission percentage, snapshotted and reportable per staff member. Chair-rental billing isn't built yet. |
+| **Barbershop** | Sharp, every time. | Each sale line can be assigned to the barber who did it with a commission percentage, snapshotted and reportable per staff member. Chair-rental billing (a flat recurring charge against a barber, netted against their commission) can be recorded from the Staff page. |
 | **Hair Salon (Women)** | Beautiful hair, every visit. | No chemical-formula custom field exists yet -- note a customer's formula in their profile notes for now; ask before promising a dedicated formula field as a working feature. |
 | **Spa & Massage Therapy** | Relax. Recharge. | A real booking calendar now enforces room/bed capacity -- a room/bed double-booked for overlapping times is refused. |
 | **Nail Studio (Manicure/Pedicure)** | Nails, done right. | Each sale line can be assigned to the technician who did it with a commission percentage, snapshotted and reportable per staff member. |
@@ -42,10 +42,10 @@ These templates are built on the same [service-business tools](../modules/overvi
 
 | Business | Tagline | Starts with |
 |---|---|---|
-| **Cleaning Services (Home/Office)** | Spotless, on schedule. | No square-footage-based quote calculator exists yet -- price each job as a flat service sale for now; ask before promising automatic area-based quoting as a working feature. |
+| **Cleaning Services (Home/Office)** | Spotless, on schedule. | A service can carry a rate per square foot, which the till uses to suggest a price from the job's area -- still a cashier-editable suggestion, not a binding automatic quote. |
 | **Pest Control** | Pest-free, guaranteed. | No recurring-contract scheduling exists yet -- log each visit as its own service sale; ask before promising automatic recurring reminders as a working feature. |
 | **Fumigation Services** | Clean, certified. | No certificate-of-fumigation document template exists yet -- generate a normal invoice/receipt for now; ask before promising an automatic certificate as a working feature. |
-| **Car Wash & Detailing** | Shine, every time. | Each sale line can be assigned to the washer who did it with a commission percentage, snapshotted and reportable per staff member. Bay-queue management isn't built yet. |
+| **Car Wash & Detailing** | Shine, every time. | Each sale line can be assigned to the washer who did it with a commission percentage, snapshotted and reportable per staff member. A Ticket per car can be put in a bay (e.g. "Bay 1") and the Tickets page shows a live queue board grouped by bay. |
 | **Car Rental / Fleet Management** | On the road, your way. | A real booking calendar now enforces per-vehicle availability -- double-booking the same vehicle for overlapping dates is refused (use the vehicle's name/plate as the booked resource). |
 | **Moving & Relocation Services** | Moved, with care. | No distance/volume-based auto-quoting exists yet -- price each job as a flat service sale for now; ask before promising automatic quoting as a working feature. |
 | **Interior Decoration** | Spaces, reimagined. | No contractor-cost tracking distinct from CAPEX exists yet -- log contractor payments as regular expenses for now. |
@@ -61,7 +61,7 @@ These templates are built on the same [service-business tools](../modules/overvi
 | **Private Tutoring / Lesson Centers** | Learning, personalized. | A term's lessons are a real prepaid session pack now -- selling it automatically grants the lesson count, redeemed per session. Auto-renewal isn't built yet. |
 | **Consulting (Business/Financial)** | Clarity, delivered. | No billable-hours time-tracking exists yet -- sell a flat project/milestone price as a service line for now; ask before promising hourly time-tracking as a working feature. |
 | **Legal Services (Small Firms)** | Represented, properly. | A Case Number custom field is stored on the customer's own profile. No fuller case-management (court dates, filing status) system exists yet; ask before promising that as a working feature. |
-| **Accounting & Bookkeeping** | Books, balanced. | No document-vault/receipt-upload area exists yet beyond a single picture per catalogue entry -- ask before promising a document vault as a working feature. |
+| **Accounting & Bookkeeping** | Books, balanced. | Each catalogue entry has its own document vault (receipts, contracts, scanned forms -- not just a single storefront picture), and the same vault is available on every customer and job. |
 | **Photography & Videography** | Captured, forever. | A real booking calendar now enforces capacity for shoot dates. Digital-gallery delivery-link tracking isn't built yet. |
 | **Event Planning & Rentals** | Events, flawless. | No rented-out-vs-returned inventory status or damage-fee workflow exist yet -- track rentable items as regular Products with Credit Inventory for now; ask before promising a return-tracking workflow as a working feature. |
 | **Catering Services** | Served, to perfection. | A menu package's raw ingredients can be set up as BOM components, deducted automatically from stock when it sells. |
@@ -72,7 +72,7 @@ These templates are built on the same [service-business tools](../modules/overvi
 
 | Business | Tagline | Starts with |
 |---|---|---|
-| **Bar & Lounge** | Good drinks, good times. | Credit Inventory doubles as open-bill tab tracking for now -- there's no dedicated "tab" concept or age-verification prompt yet; ask before promising a tab/age-check feature as a working feature. |
+| **Bar & Lounge** | Good drinks, good times. | A running tab is a Held Order -- keep adding rounds to it, then check out once; POS also shows a staff "confirm the customer's age" prompt before completing a sale with an age-restricted item. Both are honest-but-simple: the age check is self-certified by staff, not real ID verification, and a tab is a held cart, not a separate ledger. |
 | **Hotel & Short-Let** | Rest, well. | A real booking calendar now enforces per-room availability -- double-booking the same room for overlapping dates is refused. Check-in/out status tracking isn't built yet. |
 | **Cinemas & Viewing Centers** | Big screen, every show. | No showtime/seat-selection system exists yet -- sell tickets as regular service items per showing; ask before promising seat selection as a working feature. |
 | **Cybercafé & Business Center** | Connected, and productive. | No automatic time-based billing (clock running per session) exists yet -- sell time blocks as regular service items for now; ask before promising live session-timer billing as a working feature. |

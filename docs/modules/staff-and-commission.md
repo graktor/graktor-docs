@@ -16,6 +16,9 @@ rates change later.
 - Every commission earned is kept as its own record, reportable per staff member.
 - Payout itself is recorded the same way any other staff payment is -- through
   [Finance](./finance.md)'s salary/expense tracking.
+- **Chair-rental billing** -- a flat recurring charge against a staff member (a barbershop/salon
+  charging for the chair they work from), recorded from the Staff page and netted against their
+  commission in reporting.
 
 ## Honesty note
 

@@ -8,10 +8,11 @@ sidebar_position: 22
 
 *Service-business tool.*
 
-Attach a photo or document to a customer record or a [ticket](./tickets.md) -- a condition photo
-at cobbler/watch-repair intake, a document a legal or accounting client provides. Images and PDFs
-up to 10 MB are supported.
+Attach a photo or document to a customer record, a [ticket](./tickets.md), or a catalogue entry --
+a condition photo at cobbler/watch-repair intake, a document a legal or accounting client
+provides, a receipt filed against a service. Images and PDFs up to 10 MB are supported, uploaded
+and browsed right from that record's own page.
 
 ## Honesty note
 
-No document-vault browsing UI with folders/tags yet -- attachments are listed flat, per record.
+No folders/tags -- attachments are listed flat, per record, newest first.

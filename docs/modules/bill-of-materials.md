@@ -10,8 +10,9 @@ sidebar_position: 16
 
 For a service that consumes other stocked items to deliver -- a phone-repair "Screen Replacement"
 that uses a screen part, a welding job that uses rods and sheets, a catering package that uses raw
-ingredients. Set one or more component products (and how many of each) on the service product; the
-components are deducted automatically, in the same stock-deducting step as the sale itself.
+ingredients. Set one or more component products (and how many of each) right from the Products
+page; the components are deducted automatically, in the same stock-deducting step as the sale
+itself.
 
 - If a component doesn't have enough stock, the whole sale is refused -- including the parent
   item -- rather than partially completing.
@@ -19,5 +20,5 @@ components are deducted automatically, in the same stock-deducting step as the s
 
 ## Honesty note
 
-No recipe/BOM editor UI yet beyond the underlying API -- components are managed per product, not
-authored as a standalone named recipe.
+Components are managed per product from its own page, not authored as a standalone named recipe
+shared across several products.

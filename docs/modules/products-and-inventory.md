@@ -23,12 +23,22 @@ than one running total. Selling always takes from the batch that expires soonest
 batch past its expiry date is never sold — this also means a recall can trace exactly which
 batch(es) a sale came from.
 
+## Service-business additions
+
+- **[Bill of materials](./bill-of-materials.md)** — a product can list the other products it
+  consumes to deliver (a repair's screen part, a dish's ingredients), deducted automatically on
+  sale.
+- **[Serialized assets](./serialized-assets.md)** — a product can track individually-serialed
+  units (a specific vehicle, a specific panel) instead of a fungible quantity.
+- **Age-restricted items** — a product can be flagged so POS shows a staff age-confirmation prompt
+  before checkout.
+- **Square-footage pricing** — a service can carry a rate per square foot, which POS uses to
+  suggest a price from the job's area.
+- **Document vault** — any product/service can have photos/documents attached (see
+  [Attachments](./attachments.md)), not just its one storefront picture.
+
 ## Known limits (ask before promising these)
 
 - **No first-class size/colour/shade variants.** A boutique's one "Dress" style in five sizes, or
   a cosmetics shade range, each needs its own product/SKU today — there's no single parent
   product with child variants yet.
-- **No per-unit serial number history.** The barcode field can hold an IMEI or serial number per
-  product, but there's no ledger of which individual unit was sold to which customer.
-- **No recipe/bill-of-materials tracking.** A restaurant's menu item is its own stock line; selling
-  it does not automatically deduct the raw ingredients that went into it.

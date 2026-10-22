@@ -25,6 +25,11 @@ The till screen every cashier uses to ring up a sale.
   spend-down of a single card yet.
 - **Credit sales** — part of a sale's total can be put on credit instead of paid in full, if the
   customer has a credit limit set (see [Customers & CRM](./customers-and-crm.md)).
+- **Staff & commission, age confirmation, square-footage pricing** (service businesses) — a sale
+  line can be assigned to the staff member who performed it with a commission percentage (see
+  [Staff assignment & commission](./staff-and-commission.md)); a cart containing an age-restricted
+  item shows a staff confirmation prompt before checkout; a service priced per square foot lets
+  the till suggest a price from the job's area.
 
 ## Offline mode
 
