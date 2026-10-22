@@ -41,8 +41,10 @@ switched on.
 
 ## Service-business tools
 
-Built for the [49 service-business templates](../business-templates/service-businesses.md), but
-available to any business:
+Built for the [49 service-business templates](../business-templates/service-businesses.md) (on by
+default there), switched on for any other business via the free **Service Tools** add-on
+(Billing → Add-ons) -- the same free, unlimited toggle as everything in the section above, just
+grouped under one switch since they're normally used together:
 
 - [Tickets](./tickets.md) — a job/status workflow for repair, tailoring, laundry and similar work.
 - [Custom fields](./custom-fields.md) — a business's own free-form fields (IMEI, plate number,
@@ -58,6 +60,11 @@ available to any business:
 - [Session packs](./session-packs.md) — prepaid units a customer buys and redeems over time.
 - [Photos & document attachments](./attachments.md) — attach a photo or document to a customer or
   ticket.
+- Seat selection (cinemas) — a hall's seats defined once, booked individually per showing. See
+  [Calendar & booking](./calendar-and-booking.md).
+
+**Product Variants** is its own separate free add-on (not part of Service Tools, since it's a
+goods-retail feature) — see [Products & inventory](./products-and-inventory.md).
 
 ## Honesty note
 
