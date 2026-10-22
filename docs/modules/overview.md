@@ -39,6 +39,26 @@ switched on.
   investments, referral rewards, and custom staff roles — each its own switch on
   **Billing → Add-ons**.
 
+## Service-business tools
+
+Built for the [49 service-business templates](../business-templates/service-businesses.md), but
+available to any business:
+
+- [Tickets](./tickets.md) — a job/status workflow for repair, tailoring, laundry and similar work.
+- [Custom fields](./custom-fields.md) — a business's own free-form fields (IMEI, plate number,
+  measurements, case number...).
+- [Bill of materials](./bill-of-materials.md) — a service that consumes other stocked components.
+- [Sale deposits & balance due](./sale-deposits.md) — take a deposit now, collect the rest later.
+- [Staff assignment & commission](./staff-and-commission.md) — attribute a sale line to a staff
+  member with a commission percentage.
+- [Calendar & booking](./calendar-and-booking.md) — appointment capacity for a staff member or a
+  named resource (a room, a bay).
+- [Serialized assets](./serialized-assets.md) — individually-tracked units (a specific vehicle, a
+  specific panel) with their own warranty date.
+- [Session packs](./session-packs.md) — prepaid units a customer buys and redeems over time.
+- [Photos & document attachments](./attachments.md) — attach a photo or document to a customer or
+  ticket.
+
 ## Honesty note
 
 Every page here says plainly what's actually built versus what's planned. If a page doesn't

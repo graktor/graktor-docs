@@ -8,7 +8,7 @@ slug: /
 # What is Graktor?
 
 Graktor (built by Zendoria Ventures) is a point-of-sale, inventory, CRM and finance platform for
-retail businesses worldwide — one shop or many branches, on one login. It launched in Nigeria and
+retail and service businesses worldwide — one shop or many branches, on one login. It launched in Nigeria and
 supports multiple countries and currencies today (NGN, USD, GBP, EUR, GHS, KES, ZAR), with local
 payment gateways and SMS routed automatically by where a business and its customers actually are.
 
@@ -25,9 +25,10 @@ It runs as:
   across businesses.
 
 Every business picks a **template** when it signs up — food store, pharmacy, boutique, hardware,
-electronics, and more — which sets sensible defaults for categories, units, and which modules are
-switched on. Nothing about the template is permanent: any module can be turned on or off later
-from Settings.
+electronics, and more, plus [49 service-business templates](./business-templates/service-businesses.md)
+(repair, personal care, home & logistics, professional, food & hospitality, creative, agriculture)
+— which sets sensible defaults for categories, units, and which modules are switched on. Nothing
+about the template is permanent: any module can be turned on or off later from Settings.
 
 ## Who this is for
 

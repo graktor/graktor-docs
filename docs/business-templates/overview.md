@@ -25,3 +25,9 @@ Settings; nothing is locked in.
 
 Not sure which fits? Pick the closest match — a boutique selling electronics accessories, for
 example, can start on either template and turn on/off individual modules afterwards regardless.
+
+## Sell a service, not a physical good?
+
+See [service-business templates](./service-businesses.md) — 49 ready-made templates (repair,
+personal care, home & logistics, professional, food & hospitality, creative, agriculture) built on
+a dedicated set of [service-business tools](../modules/overview.md#service-business-tools).
