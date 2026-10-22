@@ -52,7 +52,7 @@ These templates are built on the same [service-business tools](../modules/overvi
 | **Gardening & Landscaping** | Green, maintained. | No recurring-maintenance scheduling exists yet -- log each visit as its own service sale; ask before promising automatic recurring reminders as a working feature. |
 | **Solar/Inverter Cleaning** | Panels, performing. | No subscription-based auto-billing or automated next-cleaning reminders exist yet -- log each visit as its own service sale; ask before promising subscriptions as a working feature. |
 | **Security Guard Services** | Protected, around the clock. | A real booking calendar can track a guard's own shift assignments (booked as a Staff resource) -- double-booking the same guard for overlapping shifts is refused. Guard-hours and monthly client billing still run through regular staff/expenses and a monthly invoice. |
-| **Delivery & Dispatch (Bike/Van)** | Delivered, on time. | Built on Grakter's existing Waybills and Dispatcher tracking -- real, working features, not a placeholder. |
+| **Delivery & Dispatch (Bike/Van)** | Delivered, on time. | Built on Graktor's existing Waybills and Dispatcher tracking -- real, working features, not a placeholder. |
 
 ## Professional & educational services
 
