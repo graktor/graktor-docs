@@ -36,9 +36,13 @@ batch(es) a sale came from.
   suggest a price from the job's area.
 - **Document vault** — any product/service can have photos/documents attached (see
   [Attachments](./attachments.md)), not just its one storefront picture.
+- **Product variants** — many size/colour SKUs (a boutique's "Dress" in five sizes, a cosmetics
+  shade range) can be grouped under one shared style with a shared name/photo, shown as a single
+  tile in POS and on the storefront with a variant picker. Each size/colour is still its own real
+  product/SKU with its own stock and price — this is a display grouping, not a merged inventory
+  row with attribute facets (no separate "Size" and "Colour" dimensions crossed against each
+  other).
 
 ## Known limits (ask before promising these)
 
-- **No first-class size/colour/shade variants.** A boutique's one "Dress" style in five sizes, or
-  a cosmetics shade range, each needs its own product/SKU today — there's no single parent
-  product with child variants yet.
+- No limits specific to this module beyond what's noted above.
