@@ -60,11 +60,16 @@ grouped under one switch since they're normally used together:
 - [Session packs](./session-packs.md) — prepaid units a customer buys and redeems over time.
 - [Photos & document attachments](./attachments.md) — attach a photo or document to a customer or
   ticket.
-- Seat selection (cinemas) — a hall's seats defined once, booked individually per showing. See
-  [Calendar & booking](./calendar-and-booking.md).
 
-**Product Variants** is its own separate free add-on (not part of Service Tools, since it's a
-goods-retail feature) — see [Products & inventory](./products-and-inventory.md).
+Two more free add-ons sit outside Service Tools, each its own switch since they're only relevant
+to one vertical:
+
+- **Product Variants** — group many size/colour SKUs under one shared style; a goods-retail
+  feature, not a service one. See [Products & inventory](./products-and-inventory.md).
+- **Cinema Seat Selection** — define a hall's seats once, then book them individually per
+  showing. Needs Service Tools too, since the showing itself is a
+  [Calendar & booking](./calendar-and-booking.md) booking -- Calendar is the generic engine every
+  booking-based vertical uses, seat-level picking is the cinema-only extra.
 
 ## Honesty note
 

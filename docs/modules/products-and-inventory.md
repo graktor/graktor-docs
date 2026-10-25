@@ -10,11 +10,14 @@ sidebar_position: 3
 
 - Product catalog with cost, price, stock on hand, reorder level, unit, and category.
 - **Low-stock alerts** once stock falls under a product's reorder level.
-- **Carton pricing** — a flat bulk rate independent of the per-unit price, for businesses that
-  sell both single units and full cartons of the same product.
+- **Carton pricing** — a flat bulk rate independent of the per-unit price, for a goods business
+  that sells both single units and full cartons of the same product. Not offered for a service
+  business (its catalogue is billable work, not stock sold by the carton).
 - **Barcode/SKU** — free-form by default; the [retail pack](./retail-pack.md) adds real barcode
   scanning at the till.
 - **Branch transfers** (retail pack) — move stock between branches with a record of the move.
+- **Custom categories** — every template starts with a fixed set, but a business can add its own
+  from the Products page ("+ Add new category…" in the category dropdown) at any time.
 
 ## Batch tracing & expiry (pharmacy pack)
 

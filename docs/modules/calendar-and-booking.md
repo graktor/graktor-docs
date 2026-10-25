@@ -18,7 +18,8 @@ be booked for the exact same time with no conflict.
   someone else.
 - **Seat selection (cinemas)** -- a hall's seats are defined once; a showing booked against that
   hall gets a real seat map, with each seat bookable to a specific customer and refusing a seat
-  that's already taken for that showing.
+  that's already taken for that showing. Its own separate free add-on (**Cinema Seat
+  Selection**), not part of Service Tools -- a cinema needs both switched on.
 
 ## Honesty note
 
