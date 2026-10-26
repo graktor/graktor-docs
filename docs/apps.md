@@ -77,6 +77,26 @@ In scope: core POS, inventory, customers, reports, staff accounts, a single bran
 online store, SMS/email notifications, and multi-branch are cloud-only and aren't part of this
 build.
 
+### Recovering a lost license key
+
+First-run setup also asks for your email and, optionally, your phone number — not a cloud
+account, just how Graktor can match a "forgot my key" request back to your install later. If a
+key is ever lost (new computer, reinstalled, misplaced), the activation screen's **Recover** tab
+sends a one-time code to that email or phone; entering it lists every key registered to that
+contact and lets you reuse one directly, no need to dig up the original key. An install set up
+with no email or phone on file has no way to recover its key this way.
+
+### Backup scope and platform-requested backups
+
+Beyond the whole-database **Full** backup, a licensed install can also run a lighter **Customers
+only** or **Products only** backup — the same data shape as the cloud product's own export,
+useful when you just want a safety copy of one thing rather than the entire local database.
+Graktor's support team can also flag a backup to run on your license from their side; since an
+offline install has no permanent live connection to be pushed to instantly, this is picked up and
+run automatically the next time your install checks in (on startup, or when you open the
+activation screen). Backup history and whether cloud backup is currently on are both visible from
+the activation screen at any time.
+
 ## Graktor Complete Suite
 
 For a business that isn't sure yet whether it wants a cloud account or a license-key install — or
